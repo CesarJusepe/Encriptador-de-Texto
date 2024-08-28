@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f4f4fc;
+}
+
+header{
+    width: 100%;
+}
+
+.logoAlura{
+    width: 120x;
+    height: 48px;
+    padding: 40px 40px;
+}
+
+.contenidoEncriptador{
+    position: absolute;
+    width: 130%;
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.contenedorTexto{
+    position: absolute;
+    left: 240px;
+    top: 100px;
+}
+
+.cajaTexto{
+    width: 577px;
+    height: 48px;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0A3871;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.cajaTexto::placeholder{
+    color: #0A3871;
+}
+
+.alerta{
+    display: flex;
+    position: absolute;
+    gap: 10px;
+    top: 851px;
+    left: 240px;
+    color: #495057;
+}
+
+.contenedorBotones{
+    display: flex;
+    margin-top: 885px;
+    padding-left: 80px;
+    gap: 24px;
+
+}
+
+.botonEncriptar{
+    width: 400px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #0A3871;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+
+.botonDesencriptar{
+    width: 400px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+}
+
+.seccion2{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 944px;
+    right: 200px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #5a5757
+}
+
+.contenedorImagen{
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 32px;
+    box-sizing: border-box;
+}
+
+.contenedorParrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 40px;
+ }
+
+ .contenedorparrafo h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #343A40;
+}
+
+.contenedorParrafo p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    padding-top: 20px;
+}
+
+.contenedorResultado{
+    position: absolute;
+    top: 72px;
+    width: 336px;
+    height: 781px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.contenedorResultado p{
+    color: #495057;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.contenedorCopiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+
+.botonCopiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #0A3871;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.ocultar{
+    display: none;
+}

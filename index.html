@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="Imagenes/Logo.svg">
+    </header>
+    <main class="contenidoEncriptador">
+        <section1 class="seccion1">
+            <div class="contenedorTexto">
+                <textarea placeholder="Ingrese el texto aqui" class="cajaTexto"></textarea>
+            </div>
+            <div class="alerta">
+                <img src="Imagenes/alerta.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="contenedorBotones">
+                <input type="button" class="botonEncriptar" value="Encriptar">
+                <input type="button" class="botonDesencriptar" value="Desencriptar">
+            </div>
+        </section1>
+
+        <section2 class="seccion2">
+            <div class="contenedorImagen">
+                <img src="Imagenes/Imagen.svg">
+            </div>
+            <div class="contenedorParrafo">
+                <h2>Nigún mensaje fue encontrado</h2>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="contenedorCopiar">
+                <input type="button" class="botonCopiar" value="Copiar">
+            </div>
+            <div class="contenedorResultado">
+                <p class="textoResultado"></p>
+            </div>
+        </section2>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
